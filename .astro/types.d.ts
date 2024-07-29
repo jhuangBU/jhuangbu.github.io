@@ -126,23 +126,9 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"markdown-syntax-guide.md": {
-	id: "markdown-syntax-guide.md";
-  slug: "markdown-syntax-guide";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"placeholder-text.md": {
-	id: "placeholder-text.md";
-  slug: "placeholder-text";
-  body: string;
-  collection: "posts";
-  data: any
-} & { render(): Render[".md"] };
-"rich-content.md": {
-	id: "rich-content.md";
-  slug: "rich-content";
+"visiting-singapore.md": {
+	id: "visiting-singapore.md";
+  slug: "visit-ntu";
   body: string;
   collection: "posts";
   data: any
